@@ -1,10 +1,14 @@
+import Navbar from "@/components/adminComponents/Navbar";
 import Sidebar from "@/components/adminComponents/Sidebar";
 
 export default async function Layout({ children }) {
   return (
     <>
-      <Sidebar />
-      {children}
+      <div className="flex">
+        <Navbar />
+        <Sidebar />
+        {children}
+      </div>
     </>
-  )
+  );
 };

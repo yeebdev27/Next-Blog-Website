@@ -18,7 +18,7 @@
   border-radius: 50%;
 }
 .custom-loader::before {
-  border-color:#e5e7eb #0000;
+  border-color:#494a4d #0000;
   animation:inherit; 
   animation-duration: .5s;
   animation-direction: reverse;
