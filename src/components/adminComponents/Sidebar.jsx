@@ -12,7 +12,7 @@ const Sidebar = () => {
           Add Product
         </Link>
         <Link
-          href="#"
+          href="/admin/blogList"
           className="text-gray-600 hover:bg-orange-500 hover:text-gray-100 p-2 rounded"
         >
           Blog List

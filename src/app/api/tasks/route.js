@@ -3,6 +3,12 @@ import connectMongoDB from "@/app/lib/mongodbConnection";
 import { NextResponse } from "next/server";
 import {writeFile} from "fs/promises";
 
+export async function GET(request) {
+    await connectMongoDB();
+
+    const task = await Task.find({});
+    return NextResponse.json({task});
+}
 
 export async function POST(request) {
     await connectMongoDB();

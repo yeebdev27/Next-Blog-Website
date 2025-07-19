@@ -1,3 +1,4 @@
+import Bloglist from "@/components/Bloglist";
 import Headline from "@/components/Headline";
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
@@ -9,8 +10,8 @@ export default function Home() {
       <Navbar />
       <div className="flex min-h-screen pt-14">
         <Sidebar />
-        <main className="flex-1 m-4 md:ml-68 bg-white rounded-3xl ">
-            <div className="grid grid-cols-10 grid-rows-10 gap-4 h-full bg-gray-200">
+        <main className="flex-1 m-4 md:ml-68">
+            <div className="grid grid-cols-10 grid-rows-10 gap-4 h-full bg-white rounded-xl">
               <div className="col-span-7 row-span-7">
                 <Headline />
               </div>

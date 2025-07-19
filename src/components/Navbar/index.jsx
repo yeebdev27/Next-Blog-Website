@@ -3,7 +3,7 @@ import { Dumbbell, House, Scale, Shirt } from "lucide-react";
 
 const Navbar = () => { 
     return (
-        <nav className="fixed h-14 w-full md:px-4 px-2 flex items-center justify-between bg-gray-200">
+        <nav className="fixed h-14 w-full md:px-4 px-2 flex items-center justify-between bg-white">
             <div className="container mx-auto flex justify-between items-center h-full">
                 <Link href="/" className="md:text-2xl text-md font-bold text-gray-800">News</Link>
                 <ul className="flex space-x-4">
